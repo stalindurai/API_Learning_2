@@ -1,0 +1,16 @@
+{
+  "name": "Generic List",
+  "uses_econda": false,
+  "uses_googleanalytics": true,
+  "has_opentracking": true,
+  "has_clicktracking": true,
+  "has_conversiontracking": false,
+  "imprint": "http://sashinconsulting.org/imprint",
+  "header_from_email": "info@sashinconsulting.org",
+  "header_from_name": "From Sashin",
+  "header_reply_email": "reply@sashinconsulting.org",
+  "header_reply_name": "Reply Sashin",
+  "tracking_url": null,
+  "landingpage": "http://sashinconsulting.org/unsubscribe-landingpage",
+  "use_ecg_list": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mobile",
+  "name": "Amio Mobile 4",
+  "mode": "production",
+  "webhook": {
+    "url": "https://sashinconsulting.com/webhooks",
+    "secret": "6OUlfYyRZ393ZEoSncNAZfoCN0WveK"
+
+  },
+  "provider": {
+    "type": "messagebird",
+    "sender_id": "07803843675",
+    "access_token": "MiVvyH8f2WIlcVjj6XngsYzmD",
+    "signing_key": "9Q0QYrSJ2K1bsd0RQIQ2mcvonf50GjvQ"
+  }
+}

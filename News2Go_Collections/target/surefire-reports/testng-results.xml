@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3806" started-at="2020-11-30T17:06:56 GMT" finished-at="2020-11-30T17:07:00 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ListRunnerTest@58e6d4b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="3806" started-at="2020-11-30T17:06:56 GMT" finished-at="2020-11-30T17:07:00 GMT">
+      <class name="runner.ListRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.ListRunnerTest@58e6d4b8]" name="setUpClass" is-config="true" duration-ms="496" started-at="2020-11-30T17:06:56 GMT" finished-at="2020-11-30T17:06:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.ListRunnerTest@58e6d4b8]" name="runScenario" duration-ms="3156" started-at="2020-11-30T17:06:57 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-30T17:07:00 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get All available Lists"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Get Lists]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.ListRunnerTest@58e6d4b8]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2020-11-30T17:07:00 GMT" finished-at="2020-11-30T17:07:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.ListRunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

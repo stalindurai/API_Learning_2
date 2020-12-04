@@ -1,0 +1,8 @@
+{
+  "name": "Video Streaming Service111",
+  "description": "Video streaming service111",
+  "type": "PHYSICAL",
+  "category": "AUTOMOTIVE",
+  "image_url": "https://example.com/streaming111.jpg",
+  "home_url": "https://example.com/home"
+}

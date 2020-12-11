@@ -1,0 +1,11 @@
+
+{
+  "type":"transfer",
+  "dispute":"ok",
+  "ref":"",
+  "description":"transfer was made for demo purposes",
+  "amount":5,
+  "TransfertoAccountId":"5fd234062154b2002dcd5447",
+  "balance":45,
+  "accountId":"5fd0739b155e01002dcec8bd"
+}

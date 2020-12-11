@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="5198" started-at="2020-12-11T11:56:57 GMT" finished-at="2020-12-11T11:57:03 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="5198" started-at="2020-12-11T11:56:57 GMT" finished-at="2020-12-11T11:57:03 GMT">
+      <class name="runner.UIBankRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="setUpClass" is-config="true" duration-ms="497" started-at="2020-12-11T11:56:57 GMT" finished-at="2020-12-11T11:56:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="runScenario" duration-ms="2574" started-at="2020-12-11T11:56:58 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-11T11:57:01 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new banking account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create a new Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="runScenario" duration-ms="1337" started-at="2020-12-11T11:57:01 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-11T11:57:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply for a Loan with created acct number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create a new Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="runScenario" duration-ms="326" started-at="2020-12-11T11:57:02 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-11T11:57:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Transfer Funds"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create a new Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="runScenario" duration-ms="324" started-at="2020-12-11T11:57:02 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-11T11:57:03 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get Account Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create a new Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.UIBankRunnerTest@165b2f7f]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2020-12-11T11:57:03 GMT" finished-at="2020-12-11T11:57:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.UIBankRunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

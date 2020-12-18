@@ -1,0 +1,20 @@
+{
+  "display_name": "Bowman24 Classics24",
+
+  "email": "benjamin24.classics24@bowmans.com",
+
+  "phone": 23467278,
+  "mobile": 938237475,
+
+  "shipping_address": {
+    "attention": "Bowman Classics",
+    "street": "Harrington Bay Street",
+    "city": "Salt Lake City",
+    "state": "CA",
+    "zip": 92612,
+    "country": "U.S.A",
+    "fax": 4527389
+  }
+
+
+}
